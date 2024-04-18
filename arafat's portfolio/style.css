@@ -1,7 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
     background-color: #06050e;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
   }
   
   header {
@@ -9,9 +17,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(6, 5, 14, 0.5); 
-    backdrop-filter: blur(10px); 
-    z-index: 1; 
+    background-color: rgba(6, 5, 14, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 1;
   }
 
   .container {
@@ -111,4 +119,246 @@ body {
     margin-left: 25%;
 }
 
+.textbottom{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  color: #666666; 
+}
 
+.textbottom::after {
+  content: '';
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #666666; 
+  transform: translateX(-50%);
+  z-index: 0; 
+}
+
+
+
+.secondpage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #06050e;
+}
+
+
+.secondpage {
+  position: relative;
+  height: 88vh;
+  background-color: #06050e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutme {
+  position: absolute;
+  top: 10%; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 20px 40px; 
+}
+
+#aboutme h1 {
+  margin: 0; 
+  font-size: 400%
+}
+
+.infoabout {
+  position: absolute;
+  top: 51%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 5%;
+}
+
+.infoaboutone {
+  line-height: 1.6; 
+  color: #877baa;
+  font-size: 250%;
+  text-align: left;
+  animation: shimmer 2s infinite; 
+  padding: 5%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@keyframes shimmer {
+  0% {
+      color: #cbc9db; 
+  }
+  50% {
+      color: #877baa; 
+  }
+  100% {
+      color: #cbc9db; 
+  }
+}
+
+.podcherk {
+  text-decoration: underline; 
+  font-weight: bold;
+  color: #877baa;
+  animation: shimmer 2s infinite; 
+}
+
+.two{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 300%;
+  color: #7b63e9;
+  max-width: 170px;
+  text-align: center;
+}
+
+.yearsof{
+  color: white;
+}
+
+.thirdpage{
+  height: 80vh;
+  width: auto;
+}
+
+.Myskills {
+  margin-left: 10%;
+  font-size: 500%;
+  color: white;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+.column {
+  flex: 1;
+  margin-right: 0;
+  margin-left: 10%;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.column h3 {
+  color: white;
+}
+
+.fourthpage {
+  height: 80vh;
+  width: auto;
+}
+
+.proj {
+  color: white;
+  font-size: 400%;
+  margin-left: 60%;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%; 
+  margin-right: 10%;
+}
+
+.IVV {
+  height: 30vh;
+  width: 30vh;
+  overflow: hidden;
+  border-radius: 15%;
+}
+
+.picI {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textIVV {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
+.data {
+  color: white;
+  margin: 0;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.topsecret {
+  height: 30vh;
+  width: 50vh;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+.topsecrett {
+  width: 100%;  
+  height: 100%;
+  object-fit: cover;
+}
+
+.textTS {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact h1{
+  color: white;
+  font-size: 300%;
+}
+
+.contactpici {
+  margin-bottom: 20px;
+}
+
+.contactpici img {
+  width: 40px; /* Adjust the width of the icons */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.contact-icon {
+  margin: 0 5px; /* Adjust spacing between icons */
+}
+.contactinfo input {
+  display: block;
+  width: 100vh;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 45vh;
+}
