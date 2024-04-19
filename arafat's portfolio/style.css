@@ -271,15 +271,17 @@ body {
 .proj {
   color: white;
   font-size: 400%;
-  margin-left: 60%;
+}
+.proj h1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 10%; 
-  margin-right: 10%;
 }
 
 .IVV {
@@ -287,6 +289,7 @@ body {
   width: 30vh;
   overflow: hidden;
   border-radius: 15%;
+  margin-left: 15%;
 }
 
 .picI {
@@ -316,6 +319,7 @@ body {
   width: 50vh;
   overflow: hidden;
   border-radius: 5%;
+  margin-right: 15%
 }
 
 .topsecrett {
@@ -334,6 +338,7 @@ body {
 .contact {
   text-align: center;
   padding: 20px;
+  height: 70vh
 }
 
 .contact h1{
@@ -341,24 +346,13 @@ body {
   font-size: 300%;
 }
 
-.contactpici {
-  margin-bottom: 20px;
-}
-
-.contactpici img {
-  width: 40px; /* Adjust the width of the icons */
-  height: auto; /* Maintain aspect ratio */
-}
-
-.contact-icon {
-  margin: 0 5px; /* Adjust spacing between icons */
-}
 .contactinfo input {
   display: block;
-  width: 100vh;
+  width: 70vh;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  margin-left: 45vh;
+  margin-left:31%;
 }
+
