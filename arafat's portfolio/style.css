@@ -268,11 +268,21 @@ body {
   width: auto;
 }
 
-.proj {
+#myskills {
   color: white;
   font-size: 400%;
 }
-.proj h1{
+#myskills h1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#myprojects {
+  color: white;
+  font-size: 400%;
+}
+#myprojects h1{
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -335,13 +345,13 @@ body {
   color: white;
 }
 
-.contact {
+#contact {
   text-align: center;
   padding: 20px;
   height: 70vh
 }
 
-.contact h1{
+#contact h1{
   color: white;
   font-size: 300%;
 }
